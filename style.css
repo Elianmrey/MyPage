@@ -1,4 +1,92 @@
 html, body {
+  background-color:#d7e3fc;
   height: 100%;
   width: 100%;
+}
+#perfil
+{
+  position: relative;
+  top: 100px;
+  left: 400px;
+  width: 200px;
+  border-radius: 50%;
+  ;
+}
+#titulo
+{
+  position: relative;
+  top: 210px;
+  left:50px;
+  font-family: Arial; 
+  
+}
+#navegadados
+{
+  
+  font-family: Arial;
+  color: white;
+  border-left: solid;
+  border-right: solid;
+  border-color: #f00540;
+  border-width: 10px;
+  background-color: #2c1b46;
+  padding-block: 20px;
+}
+#topicos
+{
+  position: relative;
+  left:50px;
+}
+#listalinks
+{
+  position: relative;
+  left:50px;
+}
+.links
+{
+  font-family: Arial, Arial, Helvetica, sans-serif, sans-serif;
+  margin-left: 20px;
+  color: white;
+}
+.inf
+{
+  font-family: Arial;
+  font-size: 10;
+}
+#rodape
+{
+  font-family: Arial;
+  color: white;
+  border-left: solid;
+  border-right: solid;
+  border-color: #f00540;
+  border-width: 10px;
+  background-color: #2c1b46;
+  padding-block: 20px;
+}
+.cabecapres
+{
+  font-family:Arial, Helvetica, sans-serif;
+  position: relative;
+  left:50px;
+}
+#intro
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12;
+  position: relative;
+  left:25px;
+}
+.linkfoot
+{
+  color:white;
+}
+#correspeend
+{
+  margin-left: 30px;
+}
+
+#tels
+{
+  margin-left: 30px;
 }

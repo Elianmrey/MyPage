@@ -1,21 +1,92 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="pt-BR">
 
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>replit</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
+  <title>
+    Cartão de apresentação
+  </title>
+  <link href="img/favicon.ico" rel="icon">
+  <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
-  
-  <script src="script.js"></script>
+  <section>
+    <!-- Inicio da tag header para colocar cabeçalho de Titulo do artigo e area navegável -->
+    <header>
+      <h1 id="titulo"> Cartão de Apresentação </h1>
+      <img src="Img/perfil.jpg" alt="Perfil Elian Montes de Oca Reyes" id="perfil">
 
- <!--
-This script places a badge on your repl's full-browser view back to your repl's cover page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green, teal, blue, blurple, magenta, pink!
--->
-<script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script> 
+      <nav id="navegadados">
+        <h2 id="topicos">Topicos nesta Página</h2>
+        <ul id="listalinks">
+          <li><a href="#dadospessoais" title="Dados pessoais" class="links"> Dados Pessoais</a></li>
+          <li><a href="#infosocial" title="Informação social" class="links"> Informação social</a></li>
+          <li><a href="#redess" title="Redes sociais" class="links"> Minhas Redes Sociais </a></li>
+        </ul>
+      </nav>
+    </header>
+  </section>
+  <!-- Fechamento da secção de cabeça da pagina para iniciar a secção do artigo com as informações principais da pagina-->
+  <main>
+    <section>
+      <article>
+        <section>
+          <section id="dadospessoais" class="inf">
+            <h2 class="cabecapres">Dados Pessoais</h2>
+            <ul type="square">
+              <li><strong>Nome:</strong> Elian Montes de Oca Reyes</li>
+              <li><strong>Idade:</strong> 30 Anos</li>
+              <li><strong>Curso:</strong> Engenharia da computação</li>
+              <li><strong>E-mail:</strong> elian.reyes@al.infnet.edu.br</li>
+            </ul>
+          </section>
+          <h2 id="infosocial" class="cabecapres">Alguns detalhes sobre mim:</h2>
+          <p id="intro">
+            Meu nome é Elian, sou cubano, trabalho como suporte técnico de uma empresa<br> comercializadora de
+            equipamento
+            de reprogramação (Chipagem) automotiva. Gosto<br> muitissimo de aprender lógica e linguagens de
+            programação. Nos
+            tempos livres<br> leio sobre investimentos e bolsa de valores, além de documentações de linguagens<br> de
+            programação e estudo sobre reprogramação de ECUs (Engine Control Units ou,<br> em português: Unidades de
+            Controle de Motor) de veículos.
+          </p>
+
+      </article>
+    </section>
+    <footer id="rodape">
+      <section id="correspeend">
+        <h2 id="redess">Minhas Redes Sociais</h2>
+        <p>
+        </p>
+        <addres>
+          <ul>
+            <em>
+              <li><a href="https://www.linkedin.com/in/elianmr" title="Rumo a meu Linkedin" target="_blank"
+                  class="linkfoot">Linkedin</a>
+              </li>
+              <li><a href="https://www.instagram.com/elianmrey" title="Visite meu instagram" target="_blank"
+                  class="linkfoot">Instagram</a></li>
+              <li><a href="https://www.facebook.com/emrs93" title="Visite meu Facebook" class="linkfoot"
+                  target="_blank">Facebook</a>
+              </li>
+            </em>
+          </ul>
+
+      </section>
+      <br>
+      <section id="tels">
+        <h2>Telefones para Contato</h2>
+        <ul type="square">
+
+          <li>Tel.1: (88) 99819-8906 </li>
+          <li> Tel.2: (85) 1306-2585 </li>
+        </ul>
+
+        </addres>
+      </section>
+    </footer>
+  </main>
 </body>
 
 </html>
